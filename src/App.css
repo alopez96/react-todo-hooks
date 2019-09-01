@@ -1,5 +1,5 @@
 .app {
-  background: linear-gradient(#644bbe, rgb(248, 42, 42));
+  background: #d35691;
   padding: 30px;
   height: 100vh;
 }
@@ -7,7 +7,7 @@
 .todo-list {
   background: #e8e8e8;
   border-radius: 4px;
-  padding: 5px;
+  padding: 10px;
   max-width: 400px;
   margin: auto;
 }
@@ -15,11 +15,49 @@
 .todo {
   background: #fff;
   box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15);
-  padding: 3px 10px;
+  padding: 5px 10px;
   font-size: 12px;
-  margin-bottom: 6px;
+  margin-bottom: 15px;
   border-radius: 3px;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  font-size: 1.2em;
+}
+
+.input{
+  width: 20rem;
+  height: 2rem;
+  border-radius: 5px;
+  border-color: #000;
+  padding:10px;
+  font-size: 1.5em;
+}
+
+.complete-btn{
+  background-color: rgb(81, 190, 81);
+  border-radius: 5px;
+  font-size: 0.7em;
+  margin: 5px;
+  border-color: transparent;
+  transition: all .3s ease-in-out;
+}
+
+.complete-btn:hover{
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+
+.delete-btn{
+  background-color: rgb(236, 49, 49);
+  border-radius: 5px;
+  font-size: 0.7em;
+  border-color: transparent;
+  transition: all .3s ease-in-out;
+}
+
+.delete-btn:hover{
+  transform: scale(1.1);
+  cursor: pointer;
 }
